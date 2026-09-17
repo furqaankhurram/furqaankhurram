@@ -13,16 +13,29 @@ I work across embedded systems, PCB design, and hardware validation — building
 | **JamDeck** · MakeUofT 2026 Audio Winner | ESP32 music controller with five sensor/input systems, C++ firmware, input filtering, and JSON events over WiFi. | [Repo](https://github.com/damhahlat/JamDeck) · [Demo](https://www.youtube.com/watch?v=r-VzDs2Of34) · [Devpost](https://devpost.com/software/jamdeck) |
 | **ServeSim** · Hack the North 2025 | A scaled volleyball-training robot with adjustable spin and aim. I focused on circuit design, testing, and validation, with contributions to the rig and firmware. | [Demo & Devpost](https://devpost.com/software/servesim-volleyball-training-robot) |
 | **Automated Wrestling Scoring** | ESP32/Bluetooth scoring interface with under 100 ms response; Python/OpenCV move detection with ~75% preliminary accuracy. | [Demo](https://drive.google.com/file/d/1tKSFpLKwo4Y2rgY6CST-jRGl1yGSClOa/view) |
-| **RFID Escape-Room Game** | An interactive escape-room game built around RFID. | Details coming soon |
+| **RFID Escape-Room Game** | A compass-themed escape-room puzzle with four MFRC522 RFID readers on a shared SPI bus, reporting reader/tag IDs over serial. | [Video demo](https://github.com/furqaankhurram/furqaankhurram/raw/refs/heads/main/assets/rfid-demo.mp4) · [Photos](#rfid-escape-room-game) |
 
-<!-- Add a project photo with: ![Describe the project](images/project-name.jpg) -->
-<!-- Add an RFID repo/demo link above when available. -->
+<details>
+<summary><b>RFID game — photos & demo</b></summary>
+
+### RFID Escape-Room Game
+
+A physical puzzle with four RFID stations arranged around a compass. The Arduino firmware polls each MFRC522 reader over SPI and reports the reader number and tag UID over serial.
+
+<p>
+  <img src="assets/rfid-photo-1.jpg" width="300" alt="RFID escape-room project, first view">
+  <img src="assets/rfid-photo-2.jpg" width="300" alt="RFID escape-room project, second view">
+</p>
+
+**[Watch the full demo (42 seconds)](https://github.com/furqaankhurram/furqaankhurram/raw/refs/heads/main/assets/rfid-demo.mp4)**
+
+</details>
 
 ## Experience
 
 - **Rockwell Automation / Allen-Bradley** — Embedded Systems Engineer, Co-op · Jan–Dec 2026
-- **McMaster Exoskeleton** — Sensing & Actuation Lead · Oct 2024–Present
-- **Mac Formula Electric** — LV Electronics / Firmware · Oct 2025–Present
+- **McMaster Exoskeleton** — Sensing & Actuation Lead · Oct 2024–Present · [Repo](https://github.com/macexo/exoskeleton-sensing-actuation)
+- **Mac Formula Electric** — LV Electronics / Firmware · Oct 2025–Present · [Dashboard repo](https://github.com/macformula/racecar/tree/main/projects/dashboard)
 - **McMaster Engineering Faculty** — Engineering Computing TA · Sep 2025–Present
 
 <details>
@@ -37,11 +50,23 @@ I work across embedded systems, PCB design, and hardware validation — building
 
 ### McMaster Exoskeleton
 
+[Sensing & actuation repository](https://github.com/macexo/exoskeleton-sensing-actuation)
+
 - Led an **11-member team** developing an **800 Hz** control pipeline across eight IMUs and four motors, using Kalman and complementary filtering.
 - Designed a **four-layer, 48 V / 50 A** power-distribution board in Altium, with high-current routing, thermal design, and controlled emergency discharge.
 - Led electrical debugging and failure isolation during competition integration.
 
+**Joint sensing PCB**
+
+<img src="assets/exo-joint-sensing-pcb.png" width="260" alt="McMaster Exoskeleton V2 joint sensing PCB layout">
+
+**Power-distribution PCB**
+
+<img src="assets/exo-power-distribution-pcb.png" width="650" alt="McMaster Exoskeleton power-distribution PCB 3D render">
+
 ### Mac Formula Electric
+
+[Dashboard source](https://github.com/macformula/racecar/tree/main/projects/dashboard)
 
 - Migrated an STM32 dashboard to **LVGL 9.3**, reducing flash usage by **176 KB / 10.4%**.
 - Built a modular StatusBar for persistent fault reporting and real-time **CAN telemetry** for inverter states, temperatures, pack voltage, and discharge current.
