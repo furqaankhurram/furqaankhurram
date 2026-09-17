@@ -6,31 +6,6 @@ I work across embedded systems, PCB design, and hardware validation — building
 
 **[View Resume](https://github.com/furqaankhurram/furqaankhurram/blob/main/Furqaan_Khurram_Resume.pdf)** · **[Download Resume](https://github.com/furqaankhurram/furqaankhurram/raw/refs/heads/main/Furqaan_Khurram_Resume.pdf)** · [LinkedIn](https://www.linkedin.com/in/furqaan-khurram-qamar/) · [Email](mailto:furqaankhurram@gmail.com)
 
-## Projects
-
-| Project | What I built | Links |
-| :--- | :--- | :--- |
-| **JamDeck** · MakeUofT 2026 Audio Winner | ESP32 music controller with five sensor/input systems, C++ firmware, input filtering, and JSON events over WiFi. | [Repo](https://github.com/damhahlat/JamDeck) · [Demo](https://www.youtube.com/watch?v=r-VzDs2Of34) · [Devpost](https://devpost.com/software/jamdeck) |
-| **ServeSim** · Hack the North 2025 | A scaled volleyball-training robot with adjustable spin and aim. I focused on circuit design, testing, and validation, with contributions to the rig and firmware. | [Demo & Devpost](https://devpost.com/software/servesim-volleyball-training-robot) |
-| **Automated Wrestling Scoring** | ESP32/Bluetooth scoring interface with under 100 ms response; Python/OpenCV move detection with ~75% preliminary accuracy. | [Demo](https://drive.google.com/file/d/1tKSFpLKwo4Y2rgY6CST-jRGl1yGSClOa/view) |
-| **RFID Escape-Room Game** | A compass-themed escape-room puzzle with four MFRC522 RFID readers on a shared SPI bus, reporting reader/tag IDs over serial. | [Video demo](https://github.com/furqaankhurram/furqaankhurram/raw/refs/heads/main/assets/rfid-demo.mp4) · [Photos](#rfid-escape-room-game) |
-
-<details>
-<summary><b>RFID game — photos & demo</b></summary>
-
-### RFID Escape-Room Game
-
-A physical puzzle with four RFID stations arranged around a compass. The Arduino firmware polls each MFRC522 reader over SPI and reports the reader number and tag UID over serial.
-
-<p>
-  <img src="assets/rfid-photo-1.jpg" width="300" alt="RFID escape-room project, first view">
-  <img src="assets/rfid-photo-2.jpg" width="300" alt="RFID escape-room project, second view">
-</p>
-
-**[Watch the full demo (42 seconds)](https://github.com/furqaankhurram/furqaankhurram/raw/refs/heads/main/assets/rfid-demo.mp4)**
-
-</details>
-
 ## Experience
 
 - **Rockwell Automation / Allen-Bradley** — Embedded Systems Engineer, Co-op · Jan–Dec 2026
@@ -76,6 +51,16 @@ A physical puzzle with four RFID stations arranged around a compass. The Arduino
 - Supported **30+ students** with file I/O, conditionals, loops, and object-oriented programming.
 
 </details>
+
+## Projects
+
+| Project | What I built | Links |
+| :--- | :--- | :--- |
+| **JamDeck** · MakeUofT 2026 Audio Winner | ESP32 music controller with five sensor/input systems, C++ firmware, input filtering, and JSON events over WiFi. | [Repo](https://github.com/damhahlat/JamDeck) · [Demo](https://www.youtube.com/watch?v=r-VzDs2Of34) · [Devpost](https://devpost.com/software/jamdeck) |
+| **ServeSim** · Hack the North 2025 | A scaled volleyball-training robot with adjustable spin and aim. I focused on circuit design, testing, and validation, with contributions to the rig and firmware. | [Demo & Devpost](https://devpost.com/software/servesim-volleyball-training-robot) |
+| **Automated Wrestling Scoring** | ESP32/Bluetooth scoring interface with under 100 ms response; Python/OpenCV move detection with ~75% preliminary accuracy. | [Demo](https://drive.google.com/file/d/1tKSFpLKwo4Y2rgY6CST-jRGl1yGSClOa/view) |
+
+Also: [RFID escape-room demo](https://github.com/furqaankhurram/furqaankhurram/raw/refs/heads/main/assets/rfid-demo.mp4).
 
 ## Skills
 
